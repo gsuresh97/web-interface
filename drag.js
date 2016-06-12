@@ -23,7 +23,6 @@ $(document).ready(function() {
         }
     });
 
-
     $(".droppable").droppable({
         drop: function(event, ui) {
             makeDraggable(ui.draggable);
