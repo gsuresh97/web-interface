@@ -1,0 +1,10 @@
+Week 1
+
+Problem: Make divs appear side by side
+
+Solution: Add float attribute
+
+
+
+Week 2: make block revert if dropping location is invalid.
+http://so.devilmaycode.it/revert-a-jquery-draggable-object-back-to-its-original-container-on-out-event-of-d/

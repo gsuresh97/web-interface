@@ -1,0 +1,66 @@
+.draggable {
+    font-family: "Monaco", monospace;;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(172, 174, 230);
+    border: solid;
+    border-color: rgb(88, 90, 152);
+    margin: 10px;
+}
+#green {
+    width: 20px;
+    height: 100px;
+    background-color: rgb(200, 255, 200);
+    border: solid;
+    border-color: rgb(50, 155, 50);
+}
+#body {
+  width: 100%
+}
+p {
+    padding: 0px 18px;
+}
+#selector {
+    width: 250px;
+    min-height: 100%;
+    height: 100%;
+    float: left;
+    border: 3px solid gray;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.red-border{
+    border:5px solid red
+}
+#title {
+    float: left;
+}
+#stringlabel {
+    font-size: 80%;
+    float: left;
+}
+#choosebool {
+    float: left;
+    margin-top: 20px;
+}
+#choosenum {
+    float: left;
+    width: 50px;
+    margin-top: 20px;
+}
+#choosestring {
+    float: left;
+    width: 50px;
+    margin-top: 20px;
+}
+body, html {
+    height: 98.5%;
+    width: 98.7%;
+}
+#code {
+    width: 78%;
+    height: 100%;
+    overflow: scroll;
+    border: 3px solid gray;
+    float: left;
+}

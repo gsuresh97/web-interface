@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="basic.css">
+    <title>Scratch Mockup</title>
+  </head>
+
+  <body>
+
+    <!--
+	all the blocks go here. This is the selection bin.
+      -->
+    <div id="selector" class="container">
+      <div class="draggable">
+	<p>Block 1</p>
+      </div>
+      <div class="draggable">
+	<p>Block 2</p>
+      </div>
+      <div class="draggable">
+	<p>Block 3</p>
+      </div>
+      <div class="draggable">
+	<p>Block 4</p>
+      </div>
+      <div class="draggable">
+	<p>Block 5</p>
+      </div>
+      <div class="draggable">
+	<p>Block 6</p>
+      </div>
+      <div class="draggable">
+	<p>Block 7</p>
+      </div>
+      <div class="draggable">
+	<p>Block 8</p>
+      </div>
+      
+    </div>
+
+    <!--
+	all the blocks will be dropped here. This is the coding bin.
+      -->
+    
+    <div id="code" class="container">
+
+    </div>
+    
+    <script src="drag.js"></script>
+  </body>
+  
+</html>
